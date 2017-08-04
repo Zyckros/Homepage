@@ -23,12 +23,11 @@ background-position: center;
 
 
 }
-#titulo {
+#liveclock {
 
     text-align: center;
     padding-top: 40px;
-    font-size: 600%;
-    font-family: comic;
+    
     
 }
 
@@ -40,9 +39,9 @@ margin-top: 20px;
 
 #campoTexto {
 
-    margin-right: 20px;
-    margin-left: 150px;
-    padding: 5px;
+    
+ 
+    
 }
 
 section {
