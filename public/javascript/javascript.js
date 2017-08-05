@@ -39,6 +39,6 @@ function show5(){
         setTimeout("show5()",1000)
          }
 
-
+/**/
         window.onload=show5
          
