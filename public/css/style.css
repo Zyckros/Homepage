@@ -41,7 +41,7 @@ margin-top: 20px;
 figure {
 
     float: left;
-    padding: 40px;
+    padding: 20px;
 }
 
 figure img {
@@ -62,4 +62,9 @@ figcaption {
     font-size: 25px;
     font-family: comic;
     padding: 20px;
+}
+
+strong{
+
+    color: white;
 }
