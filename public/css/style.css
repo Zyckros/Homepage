@@ -5,11 +5,11 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
     font-size: 100%;
     font-weight: normal;
 }
-table { border-collapse: collapse; border-spacing: 0; }
+
 td, th, caption { font-weight: normal; text-align: left; }
 img, fieldset { border: 0; }
-ol { padding-left: 1.4em; list-style: decimal; }
-ul { padding-left: 1.4em; list-style:square; }
+
+
 q:before, q:after { content:''; }
 
 body {
@@ -19,7 +19,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
 
 
 }
@@ -27,25 +27,26 @@ body {
 
     text-align: center;
     padding-top: 40px;
-    
-    
+
+
 }
 
 #formulario {
-
     margin-top: 20px;
 
 }
 
 
 figure {
-
+  display: inline-block;
     float: left;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: comic;
 }
 
-figure img {
-
+ img {
     -webkit-transition:-webkit-transform 0.2s  ease-in-out 0.1s;
 
 }
@@ -53,18 +54,15 @@ figure img {
 figure img:hover {
 
     -webkit-transform: scale(1.2) rotate(20deg);
-    
-}
 
-figcaption {
-
-    text-align: center;
-    font-size: 25px;
-    font-family: comic;
-    padding: 20px;
 }
 
 strong{
 
     color:white;
+}
+
+img{
+  width: 100px;
+  height: 100px;
 }
